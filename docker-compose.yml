@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  aidocker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yzhang/aidocker
+    
