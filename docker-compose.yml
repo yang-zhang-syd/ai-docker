@@ -6,4 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     image: yzhang/aidocker
-    
+    ports:
+      - "9999:8888"
